@@ -12,9 +12,9 @@ html {
 }
 
 body {
-  font-family: 'Press Start 2P', sans-serif;
-  color: #eee;
-  background-color: #222;
+  font-family: Cursive;
+  color: hotpink;
+  background-image: url('birthdaybg.jpg');
   /* background-color: #60b347; */
 }
 
@@ -22,12 +22,12 @@ body {
 header {
   position: relative;
   height: 35vh;
-  border-bottom: 7px solid #eee;
+  border-bottom: 7px solid yellowgreen;
 }
 
 main {
   height: 65vh;
-  color: #eee;
+  color: hotpink;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -51,14 +51,14 @@ h1 {
   text-align: center;
   position: absolute;
   width: 100%;
-  top: 52%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .number {
-  background: #eee;
-  color: #333;
+  background: gray;
+  color: hotpink;
   font-size: 6rem;
   width: 15rem;
   padding: 3rem 0rem;
@@ -75,7 +75,11 @@ h1 {
   top: 2rem;
   right: 2rem;
 }
-
+.dora {
+  position: absolute;
+  top: 32rem;
+  right: 15rem;
+}
 .again {
   position: absolute;
   top: 2rem;
@@ -84,7 +88,7 @@ h1 {
 
 .guess {
   background: none;
-  border: 4px solid #eee;
+  border: 4px solid hotpink;
   font-family: inherit;
   color: inherit;
   font-size: 5rem;
@@ -97,7 +101,7 @@ h1 {
 
 .btn {
   border: none;
-  background-color: #eee;
+  background-color: hotpink;
   color: #222;
   font-size: 2rem;
   font-family: inherit;
@@ -106,7 +110,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #ccc;
+  background-color: rgb(65, 97, 145);
 }
 
 .message {
