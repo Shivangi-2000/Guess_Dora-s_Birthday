@@ -15,6 +15,12 @@ body {
   font-family: Cursive;
   color: hotpink;
   background-image: url('birthdaybg.jpg');
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* background-color: #60b347; */
 }
 
@@ -79,6 +85,7 @@ h1 {
   position: absolute;
   top: 32rem;
   right: 15rem;
+  width: 90px;
 }
 .again {
   position: absolute;
